@@ -1,10 +1,10 @@
-import ProfileCard from "./practice-projects/profile-card/ProfileCard";
+import Navbar from "./practice-projects/responsive-navbar/Navbar";
 
 function App() {
   return (
     <>
-      <div className="w-full min-h-screen flex justify-center items-center ">
-        <ProfileCard />
+      <div className="w-full min-h-screen flex justify-center">
+        <Navbar />
       </div>
     </>
   );

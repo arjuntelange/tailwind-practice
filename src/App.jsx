@@ -1,14 +1,13 @@
-import PricingCard from "./practice-projects/pricing-cards/PricingCard";
+import StatCards from "./practice-projects/dashboard-stats/StatCards";
 
 function App() {
   return (
     <>
       <div className="w-full min-h-screen flex justify-center">
-        <PricingCard />
+        <StatCards />
       </div>
     </>
   );
 }
 
 export default App;
-
